@@ -1,4 +1,8 @@
 <!-- markdownlint-disable -->
+# hydroxylamine — NH₂OH
+
+A simple coderpad-like environment for practicing competitive programming.
+
 <br />
 <div align="center">
   <a href="https://github.com/nix-community/kickstart-nix.nvim">
