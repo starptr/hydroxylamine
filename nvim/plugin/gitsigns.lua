@@ -1,3 +1,8 @@
+-- Disable this plugin
+if true then
+  return
+end
+
 if vim.g.did_load_gitsigns_plugin then
   return
 end
