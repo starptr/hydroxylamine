@@ -91,7 +91,8 @@ with final.pkgs.lib; let
 in {
   # This is the neovim derivation
   # returned by the overlay
-  "NH₂OH-pkg" = mkNeovim {
+  "hydroxylamine-pkg" = mkNeovim {
+	appName = "hydroxylamine";
     plugins = all-plugins;
     inherit extraPackages;
   };

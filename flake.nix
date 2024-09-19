@@ -59,9 +59,13 @@
       };
     in {
       packages = rec {
-        default = nvim;
-        nvim = pkgs."NH₂OH-pkg";
+        default = hydroxylamine;
+        hydroxylamine = pkgs."hydroxylamine-pkg";
       };
+	  apps.default = {
+        type = "app";
+		program = "${self.packages.${system}.default}/bin/hydroxylamine";
+	  };
       devShells = {
         default = shell;
       };
