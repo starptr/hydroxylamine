@@ -60,7 +60,7 @@
     in {
       packages = rec {
         default = nvim;
-        nvim = pkgs.nvim-pkg;
+        nvim = pkgs."NH₂OH-pkg";
       };
       devShells = {
         default = shell;

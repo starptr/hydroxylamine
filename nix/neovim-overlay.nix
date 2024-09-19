@@ -91,7 +91,7 @@ with final.pkgs.lib; let
 in {
   # This is the neovim derivation
   # returned by the overlay
-  nvim-pkg = mkNeovim {
+  "NH₂OH-pkg" = mkNeovim {
     plugins = all-plugins;
     inherit extraPackages;
   };
