@@ -23,7 +23,7 @@ opt.number = true
 opt.relativenumber = false
 opt.cursorline = false
 opt.lazyredraw = true
-opt.showmatch = true -- Highlight matching parentheses, etc
+opt.showmatch = false
 opt.incsearch = false
 opt.hlsearch = false
 
